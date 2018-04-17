@@ -1,0 +1,5 @@
+README.md~
+.env.development
+.env.test
+node_modules
+node_modules/

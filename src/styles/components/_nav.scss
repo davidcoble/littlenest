@@ -1,0 +1,12 @@
+.nav {
+  background: #333;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav__link {
+  color: #999;
+  font-size: $ml-size;
+
+}
