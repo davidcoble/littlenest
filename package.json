@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Dave Coble",
-  "license": "littlenest",
+  "license": "MIT",
   "scripts": {
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
