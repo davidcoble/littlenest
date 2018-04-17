@@ -1,9 +1,9 @@
 {
-  "name": "boilerplate-react-app",
+  "name": "littlenest-react-app",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Andrew Mead",
-  "license": "MIT",
+  "author": "Dave Coble",
+  "license": "littlenest",
   "scripts": {
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
