@@ -10,3 +10,18 @@
   font-size: $ml-size;
 
 }
+
+.title {
+  font-size: $l-size;
+  justify-content: center;
+
+}
+.teacher {
+  background: #333;
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  color: #999;
+  font-size: $m-size;
+
+}
