@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+
+img.bigNest {
+  width: 100%;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -11,7 +16,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: $m-size;
   line-height: 1.6;
-  background-color: #A0E1DA;
+  background-color: #d6ffff;
 }
 
 button {

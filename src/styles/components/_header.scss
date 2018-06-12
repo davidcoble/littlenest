@@ -1,9 +1,12 @@
 .header {
-  background: #d6ffff;
+  background: #ffffff;
   background-image: url("/images/Nestlonglg.png");
   background-repeat: no-repeat;
   background-size: auto 100%;
   height: 100px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
 
 .header__content {

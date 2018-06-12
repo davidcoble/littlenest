@@ -1,27 +1,29 @@
 .nav {
   background: #333;
-  display: flex;
-  justify-content: center;
-  width: 100%;
+  display: block;
+  top: 100px;
+  width: 150px;
+  height: 100%;
+  position: fixed;
+  align-content: right;
 }
+div.navDiv {
 
+}
 .nav__link {
   color: #999;
-  font-size: $ml-size;
-
+  font-size: $m-size;
+  display: block;
+  text-align: right;
+  width: 100%;
+  padding-right: 5px;
 }
+
+
 
 .title {
   font-size: $l-size;
   justify-content: center;
 
 }
-.teacher {
-  background: #333;
-  display: flex;
-  justify-content: left;
-  width: 100%;
-  color: #999;
-  font-size: $m-size;
 
-}

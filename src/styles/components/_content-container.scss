@@ -3,3 +3,66 @@
   padding: 0 $m-size;
   max-width: 80rem;
 }
+
+.content {
+  top: 100px;
+  z-index: 0;
+  max-width: 1000px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h2.separator {
+  text-align: center;
+  font-style: $xl-size;
+}
+
+
+h2.teacher {
+  text-align: center;
+  background: #333;
+  justify-content: left;
+  color: #999;
+  font-size: $m-size;
+
+}
+
+td.teacher {
+  padding-top: 0px;
+  vertical-align: top;
+}
+
+td.description {
+  padding-top: 0px;
+  margin-top: 0px;
+  vertical-align: top;
+  padding-left: 10px;
+}
+
+p {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+img.teacher {
+  width: 200px;
+}
+
+table.schedule {
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 0px;
+}
+
+td.time {
+  vertical-align: top;
+  text-align: right;
+  border-right: solid 1px black;
+  padding-right: 10px;
+}
