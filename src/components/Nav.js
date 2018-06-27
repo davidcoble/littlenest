@@ -1,10 +1,10 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {connect} from 'react-redux';
-import {Header} from "./Header";
-import {startLogout} from "../actions/auth";
 
-export const Nav = () => (
+export const Nav = ({
+                        isAuthenticated
+                    }) => (
     <div className='navDiv'>
         <nav className='nav'>
             <Link className='nav__link' to='/home'>home</Link>

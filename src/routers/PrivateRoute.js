@@ -5,21 +5,22 @@ import Header from '../components/Header';
 import Nav from '../components/Nav';
 
 export const PrivateRoute = ({
-                                 isAuthenticated,
-                                 component: Component,
-                                 ...rest
-                             }) => (
-    <Route {...rest} component={(props) => (
+    isAuthenticated,
+    component: Component,
+    ...rest
+}) => (
+<Route {...rest} component={(props) => (
+    isAuthenticated ? (
         <div>
             <Header/>
             <Nav>
             </Nav>
-            <div className='divComponent'>
-                <Component {...props} />
-            </div>
+            <Component {...props} />
         </div>
-    )}
-    />
+    ) : (
+        <Redirect to="/"/>
+    )
+)}/>
 );
 
 const mapStateToProps = (state) => ({

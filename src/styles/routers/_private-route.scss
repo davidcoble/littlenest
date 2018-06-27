@@ -3,3 +3,9 @@
   left: 160px;
   top: 110px;
 }
+
+@media (max-width: 45rem) {
+  .divComponent {
+    left: 0px;
+  }
+}
