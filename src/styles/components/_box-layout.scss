@@ -1,11 +1,13 @@
 .box-layout {
   align-items: center;
-  background: url('/images/feef.jpg');
-  background-size: cover;
+  background: url('/images/Nestlarge.png');
+  background-size: inherit;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
-  height: 100vh;
+  min-height: 1000px;
   justify-content: center;
-  width: 100vw;
+  min-width: 1000px;
 }
 
 .box-layout__box {

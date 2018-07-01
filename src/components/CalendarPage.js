@@ -4,7 +4,7 @@ const CalendarPage = () => (
     <div className='content'>
         <h2>Calendar</h2>
 
-        <h3>School Year 2016-2017</h3>
+        <h3>School Year 2018-2019</h3>
 
         <p>During the school year, we will adhere to Seattle Public Schools'
             schedule of holidays and weather events.  In the event that SPS are

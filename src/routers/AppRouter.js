@@ -3,6 +3,8 @@ import {Router, Route, Switch, Link, NavLink} from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
 import DashboardPage from '../components/DashboardPage';
 import NotFoundPage from '../components/NotFoundPage';
+import LoginPage from '../components/LoginPage';
+import LogoutPage from '../components/LogoutPage';
 import AboutPage from '../components/AboutPage';
 import CalendarPage from '../components/CalendarPage';
 import ContactPage from '../components/ContactPage';
@@ -12,10 +14,9 @@ import HomePage from '../components/HomePage';
 import MapPage from '../components/MapPage';
 import SchedulePage from '../components/SchedulePage';
 import TuitionPage from '../components/TuitionPage';
-import LoginPage from '../components/LoginPage';
-import AdminPage from '../components/AdminPage';
 import PrivateRoute from './PrivateRoute';
 import PublicRoute from './PublicRoute';
+import LoginRoute from './LoginRoute';
 
 export const history = createHistory();
 
@@ -33,9 +34,9 @@ const AppRouter = () => (
                 <PublicRoute path="/home" component={HomePage}/>
                 <PublicRoute path="/map" component={MapPage}/>
                 <PublicRoute path="/schedule" component={SchedulePage}/>
-                <PublicRoute path="/tuition" component={TuitionPage}/>
-                <PublicRoute path="/login" component={LoginPage}/>
-                <PublicRoute path='/admin' component={AdminPage}/>
+                <PrivateRoute path="/tuition" component={TuitionPage}/>
+                <LoginRoute path="/login" component={LoginPage}/>
+                <PrivateRoute path="/logout" component={LogoutPage}/>
                 <Route component={NotFoundPage}/>
             </Switch>
         </div>

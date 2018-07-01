@@ -18,9 +18,9 @@ const TuitionPage = () => (
             <tbody>
             <tr>
                 <th colSpan='2'>
-                    <b>2018-2019 School Year</b>
-                    <b>9:30am to 1:30pm Monday - Friday</b><br/><br/>
-                    <b>Choose 2, 3, 4 or 5 days per week</b>
+                    <p>2018-2019 School Year</p>
+                    <p>9:30am to 1:30pm Monday - Friday</p>
+                    <p>Choose 2, 3, 4 or 5 days per week</p>
                 </th>
             </tr>
             <tr>
@@ -50,19 +50,17 @@ const TuitionPage = () => (
             </tbody>
         </table>
         <div>
-            <table className='schedule'>
-                <tbody>
-                <tr>
-                    <td>
-                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <table className='schedule'>
+                    <tbody>
+                    <tr>
+                        <td>
                             <input type="hidden" name="cmd" value="_s-xclick"/>
                             <input type="hidden" name="hosted_button_id" value="A48BH3XFYNW46"/>
                             <table>
                                 <tbody>
                                 <tr>
                                     <td><input type="hidden" name="on0" value="Tuition"/>Pay Tuition Here:</td>
-                                </tr>
-                                <tr>
                                     <td><select name="os0">
                                         <option value="2 days / week">2 days / week $354.00 USD</option>
                                         <option value="3 days / week">3 days / week $466.00 USD</option>
@@ -70,30 +68,28 @@ const TuitionPage = () => (
                                         <option value="5 days / week">5 days / week $690.00 USD</option>
                                     </select></td>
                                 </tr>
+                                <tr>
+                                    <td><input type="hidden" name="on1" value="for"/>for (please list student's name and month):</td>
+                                    <td><input type="test" name="os1" /></td>
+                                </tr>
                                 </tbody>
                             </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td className="center">
                             <input type="hidden" name="currency_code" value="USD"/>
                             <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif"
                                    name="submit" alt="PayPal - The safer, easier way to pay online!"/>
                             <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
                                  height="1"/>
-                        </form>
-                    </td>
-                    <td>
-                        <p>Donations gratefully accepted:</p>
-                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                            <input type="hidden" name="cmd" value="_s-xclick"/>
-                            <input type="hidden" name="hosted_button_id" value="VG2Z25PLF2FLJ"/>
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
-                                   name="submit" alt="PayPal - The safer, easier way to pay online!"/>
-                            <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
-                                 height="1"/>
-                        </form>
-                    </td>
-                </tr>
 
-                </tbody>
-            </table>
+                        </td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </form>
         </div>
 
         <br/>
