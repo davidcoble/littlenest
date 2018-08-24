@@ -3,7 +3,7 @@ import React from 'react';
 const GuestPage = () => (
     <div className="content">
         <h1 className='title'>Guest Teachers</h1>
-        <h2 className='teacher'>Bronwen Houck, Creative Dance</h2>
+        <h2 className='teacher'>Bronwen Houck, Guest Teacher / Creative Dance / Substitute</h2>
         <table>
             <tbody>
             <tr>
@@ -28,6 +28,9 @@ const GuestPage = () => (
                         Little Nester and one alum) and works as a professional portrait and event
                         photographer
                         (<a href="http://www.bronwenhouckphoto.com">www.bronwenhouckphoto.com</a>).
+                    </p>
+                    <p>
+                        Both of Bronwen's children are Little Nest Alumni.
                     </p>
                 </td>
             </tr>
@@ -58,6 +61,55 @@ const GuestPage = () => (
                         over the North & West Seattle area. She also performs British Panto,
                         vaudeville, and sings in various music groups as well as performing
                         solo with her Ukulele.</p>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+        <h2 className='teacher'>Sabrina Howell, Guest Teacher / Substitute</h2>
+        <table>
+            <tbody>
+            <tr>
+                <td>
+
+                </td>
+                <td className='description'>
+                    <p>
+                        As Sabrina enters her second decade as a parent, she is excited to move
+                        from her role as a stay at home parent into working with larger groups
+                        of children. Sabrina has a bachelor's degree in philosophy and political
+                        science from DePaul University and a master's degree in political science
+                        from Rutgers University. After working in co-op preschools for six years
+                        with her own children, Sabrina is excited to join the loving and nurturing
+                        team at Little Nest as a guest teacher. Sabrina believes children need to
+                        spend lots of time outside, expressing their physical selves. She also loves
+                        helping children fully realize and express their imaginative ideas.
+                    </p>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+        <h2 className='teacher'>Betsy Dischel, Guest Teacher / Spanish & ASL</h2>
+        <table>
+            <tbody>
+            <tr>
+                <td>
+
+                </td>
+                <td className='description'>
+                    <p>
+                        With her <a href="http://www.redukulele.com/">Red Ukulele</a> and decades of
+                        knowledge, experience and wisdom, Betsy weaves education, culture and positivity
+                        into each of her stories and lessons. Teaching in Spanish and ASL, Betsy also
+                        brings two decades of special education experience and artful musicianship to
+                        her stories and classes. Betsy provides an equal learning opportunity for
+                        children, teachers and family members alike.
+                    </p>
+                    <p>
+                        Betsy Dischel grew up in Manhattan, NYC, graduated from Cornell University and
+                        has a teaching credential from San Jose State University.
+                    </p>
                 </td>
             </tr>
             </tbody>
