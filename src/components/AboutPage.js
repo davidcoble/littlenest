@@ -4,7 +4,7 @@ const AboutPage = () => (
     <div className='content'>
 
 
-        <h1>About Us</h1>
+        <h1>About Little Nest</h1>
 
 
         <p>Little Nest Preschool is a cozy, nurturing half-day program for
